@@ -154,3 +154,15 @@ print("Le type de chaîne de Python est: %s" %type('chaîne'))
 - input(): récupérer les données saisie par le clavier.
 - Les données obtenues seront toujours de type str.
 
+## Chapter 3 Déclarations de jugement
+
+### 1. Type booléen et opérateur de comparaison
+
+- Type booléen: True / False
+- Opérateur de comparaison:
+  - == != > < >= <=
+
+### 2. Format de base des instructions if
+
+
+
