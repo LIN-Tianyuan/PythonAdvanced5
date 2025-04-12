@@ -162,7 +162,42 @@ print("Le type de chaîne de Python est: %s" %type('chaîne'))
 - Opérateur de comparaison:
   - == != > < >= <=
 
-### 2. Format de base des instructions if
+### 2. Format de base des instructions if else
+
+```python
+print("Bienvenue au parc d'attractions!")
+# Obtenir l'entrée du clavier
+age = int(input("Veuillez entrer votre âge: "))
+
+# Déterminer si une personne est un adulte
+if age >= 18:
+    print("Vous êtes un adulte et devez acheter un billet pour la visite, 10euro.")
+else:
+    print("Vous êtes mineur et pouvez jouer gratuitement!")
+
+print("Bonne visite!")
+```
+
+### 3. Format de base des instrctions if elif else
+
+```python
+print("Bienvenue au Zoo!")
+height = int(input("Veuillez indiquer votre taille(cm): "))
+vip_level = int(input("Veuillez entrer votre niveau VIP(1~5): "))
+day = int(input("Veillez entrer la date du jour (1~30): "))
+if height < 120:
+    print("Vous pouvez jouer gratuitement si vous mesurez moins de 120 cm.")
+elif vip_level > 3:
+    print("Votre niveau vip est supérieur à 3 et vous pouvez jouer gratuitement.")
+elif day == 1:
+    print("Aujourd'hui est le 1er jour libre pour visiter.")
+else:
+    print("Désolé, toutes les conditions ne sont pas remplis et un billet est nécessaire pour 10 euro.")
+
+print("Bonne visite!")
+```
+
+
 
 
 
