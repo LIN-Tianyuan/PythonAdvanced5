@@ -244,5 +244,24 @@ while i <= 100:
 print(f"Persistence to the number of days: {i - 1}, show love successfully!")
 ```
 
+### 2. For
 
+```python
+name = "Python"
+for letter in name:
+    print(letter)
+```
+
+### 3. range
+
+- range: obtenir une séquence de nombres (un des types itérables)
+
+```python
+for element in range(5):
+    print(element)
+```
+
+- range(5): 0 1 2 3 4
+- range(1, 5): 1 2 3 4
+- range(5, 10 ,2): 5 7 9
 
