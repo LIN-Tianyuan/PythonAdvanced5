@@ -265,3 +265,39 @@ for element in range(5):
 - range(1, 5): 1 2 3 4
 - range(5, 10 ,2): 5 7 9
 
+### 4. break
+
+- Terminer directement la boucle dans laquelle il se trouve
+
+### 5. continue
+
+- Interrompre l'exécution actuelle de la boucle dans laquelle vous vous trouvez et passer directement à la suivante.
+
+## Chapter 5 Fonction
+
+### 1. Introduction
+
+- Des segments de code organisés et réutilisables
+- Utilisés pour réaliser des fonctions spécifiques
+
+### 2. Définition des fonctions
+
+```bash
+def nom de la fonction(paramètre entrant):
+		fonction corps
+		return la valeur de retour
+```
+
+- Définir d'abord la fonction et après appeler la fonction.
+
+### 3. Paramètres entrants
+
+- Accepter les données entrantes externes pendant que la fonction est en cours d'exécution.
+
+```python
+def add(x, y):
+    print(x + y)
+```
+
+- Les paramètres de la définition de la fonction sont appelés paramètres formels.
+- Les paramètres dans les appels de fonction sont appelés paramètres réels.
