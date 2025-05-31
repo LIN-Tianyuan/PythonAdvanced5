@@ -301,3 +301,54 @@ def add(x, y):
 
 - Les paramètres de la définition de la fonction sont appelés paramètres formels.
 - Les paramètres dans les appels de fonction sont appelés paramètres réels.
+
+### 4. Valeur de retour
+
+- Le résultat renvoyé à l'appelant après la fin de l'exécution de la fonction.
+- Le mot-clé: return
+- Le corps de la fonction se termine lorsqu'il rencontre return, donc le code écrit après return n'est pas exécuté.
+
+```python
+def add(x, y):
+    return x + y
+
+num = add(1, 2)
+print(num)
+```
+
+### 5. None
+
+- None est un littéral du type 'NoneType' et est utlisé pour indiquer: vide, sans signification
+- Scénarios d'utilisation:
+  - valeur de retour des fonctions
+  - if le jugement
+  - définition de la variable
+
+```python
+def check_age(age):
+    if age > 18:
+        return "SUCCESS"
+    return None
+
+result = check_age(5)
+if not result:
+    print("No enter!")
+```
+
+### 6. Document de description des fonctions
+
+- explication de la fonction pour aider à mieux comprendre sa fonction.
+- param est utilisé pour interpréter les paramètres.
+- return est utlisé pour interpréter la valeurs de retour.
+
+```python
+def add(x, y):
+    """
+    Additioner les deux chiffres
+    :param x: Chiffre1
+    :param y: Chiffre2
+    :return: La somme
+    """
+    return x + y
+```
+
