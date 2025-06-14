@@ -352,3 +352,36 @@ def add(x, y):
     return x + y
 ```
 
+### 7. Global
+
+- Variable locale: Peut être utilisé à l'intérieur de la fonction et ne peut être utilisé en dehors de celle-ci.
+- Variable globale: Peut être utilisé à l'intérieur comme à l'extérieur.
+- Utiliser le mot-clé **global** pour déclarer une variable définie dans une fonction comme une variable globale.
+
+## Chapter 6 Conteneur de données
+
+### 1. list
+
+```python
+# Définition d'une liste
+name_list = ["Leo", "Lucas", "Laurent"]
+print(name_list)
+print(name_list[1])
+print(type(name_list))
+print(len(name_list))
+print("-----------")
+my_list = ["Alex", 666, True]
+print(my_list)
+print(type(my_list))
+print("-----------")
+my_list2 = [[1, 2, 3], [4, 5, 6]]
+print(len(my_list2))
+print(my_list2[1][1])
+
+# Définition d'une liste vide
+list1 = []
+list2 = list()
+```
+
+- Chaque élément d'une liste a un nombre appelé indice(index).
+- List[index] pour récupérer l'élément d'une liste.
