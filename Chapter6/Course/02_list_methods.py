@@ -26,5 +26,35 @@ my_list4.extend([4, 5, 6])
 print(my_list4)
 
 my_list5 = [1, 2, 3]
+# supprimer l'élément(index)
+# my_list5.pop(0)
+# supprimer la première correspondance d'un élément de la liste
+# my_list5.remove(1)
+# supprimer l'élément(index)
+del my_list5[0]
+print(my_list5)
 
+my_list6 = [1, 2, 3, 2, 3]
+# supprimer la première correspondance d'un élément de la liste
+my_list6.remove(2)
+print(my_list6)
 
+my_list7 = [1, 2, 3]
+# Effacer le contenu de la liste
+my_list7.clear()
+print(my_list7)
+
+my_list8 = [1, 1, 1, 2, 3]
+"""
+a = 0
+count = 0
+while a < len(my_list8):
+    if my_list8[a] == 1:
+        count += 1  # count = count + 1
+    a += 1
+print(count)
+"""
+# Compter le nombre d'éléments dans une liste
+print(my_list8.count(1))
+# Compter le nombre d'éléments dans une liste
+print(len(my_list8))
