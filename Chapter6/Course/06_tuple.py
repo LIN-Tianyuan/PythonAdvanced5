@@ -6,6 +6,7 @@ print(t1[2])
 t2 = (1, 2, 'hello', 3, 4, 'hello')
 # Trouver la première correspondance pour un élément spécifique
 print(t2.index('hello'))
+print(t2.count('hello'))
 
 t3 = (1, 2, 3)
 # Compter le nombre d'éléments dans un tuple
@@ -21,3 +22,8 @@ t4[0] = 5
 t5 = (1, 2, ['Leo', 'Lucas'])
 t5[2][0] = 'Kevin'
 print(t5)
+
+"""
+t6 = (1, 2, ['Leo', 'Lucas'])
+t6[2] = [3, 4]
+"""
