@@ -1,4 +1,2 @@
 hello world
-python
-alex
-luna
+hello world2

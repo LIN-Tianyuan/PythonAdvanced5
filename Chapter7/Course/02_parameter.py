@@ -1,7 +1,9 @@
+# Paramètres formelles
 def user_info(name, age, gender):
     print(f"Votre nom est {name}, votre âge est {age} ans et votre sexe est {gender}.")
 
 # 1. arguments positionnels
+# Paramètres réelles
 user_info("Alex", 18, "homme")
 # 2. arguments mots-clés
 user_info(name="Alex", age=18, gender="homme")

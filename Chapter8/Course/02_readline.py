@@ -1,0 +1,6 @@
+f = open("python.txt")
+content = f.readline()
+print(f"Première ligne: {content}")
+content2 = f.readline()
+print(f"Deuxième ligne: {content2}")
+f.close()
