@@ -1,0 +1,18 @@
+from pyecharts.charts import Line
+from pyecharts.options import TitleOpts, LegendOpts, ToolboxOpts, VisualMapOpts
+
+# Obtenir un objet graphique linéaire
+line = Line()
+# Ajouter les données de l'axe des x
+line.add_xaxis(["France", "America", "China"])
+# Ajouter les données de l'axe des y
+line.add_yaxis("World GDP", [30, 20, 10])
+
+line.set_global_opts(
+    title_opts=TitleOpts(title="GDP Show", pos_left="center", pos_bottom="1%"),
+    legend_opts=LegendOpts(is_show=True),
+    toolbox_opts=ToolboxOpts(is_show=True),
+    visualmap_opts=VisualMapOpts(is_show=True)
+)
+# Générer des graphiques
+line.render()
