@@ -6,12 +6,21 @@ t1.test(1, 3)
 t2.test(1, 3)
 """
 
-"""
-from my_module1 import test
-from my_module2 import test
 
-test(1, 3)
-"""
+# from my_module1 import test
+# from my_module2 import test
 
 from my_module1 import *
-test_a()
+
+test_b()
+
+# test(1, 3)
+
+
+# from my_module1 import *
+# test_a()
+# test_b()
+
+# import my_module1
+#
+# my_module1.test(10, 20)
